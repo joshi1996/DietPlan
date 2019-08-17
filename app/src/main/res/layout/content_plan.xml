@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PlanActivity"
+    android:background="@drawable/bccc"
+    tools:showIn="@layout/activity_plan">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tweleve"
+                    android:alpha=".6"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp">
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="22dp"
+                        android:textColor="#181515"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold|italic"
+                        android:drawableLeft="@drawable/d1"
+                        android:text="7 Day Diet Meal Plan\n \n 1200 Calorie"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fourteen"
+                    android:alpha=".6"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp">
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="22dp"
+                        android:textColor="#2a2929"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold|italic"
+                        android:drawableLeft="@drawable/d2"
+                        android:text="7 Day Diet Meal Plan\n\n1400 Calorie"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/sixteen"
+                    android:alpha=".6"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp">
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="22dp"
+                        android:textColor="#2c2929"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold|italic"
+                        android:drawableLeft="@drawable/d3"
+                        android:text="7 Day Diet Meal Plan\n\n1600 Calorie"/>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/eighteen"
+                    android:alpha=".6"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp">
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="22dp"
+                        android:textColor="#2b2626"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold|italic"
+                        android:drawableLeft="@drawable/d4"
+                        android:text="7 Day Diet Meal Plan\n\n2000 Calorie"/>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

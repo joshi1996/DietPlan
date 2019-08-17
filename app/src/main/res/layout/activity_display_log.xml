@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".DisplayLogActivity" >
+    <ListView
+        android:layout_weight="8"
+        android:id="@+id/log_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/back_button"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_button"
+        android:scrollbars="vertical"
+        android:textSize="15sp" >
+    </ListView>
+
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:id="@+id/add_button"
+        android:background="@drawable/btntwelve"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="addNewLogEntry"
+        android:text="@string/add_new_log_entry"
+        android:textColor="#433f3f"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:id="@+id/back_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btntwelve"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="closeActivity"
+        android:text="@string/back_button" />
+
+
+</LinearLayout>

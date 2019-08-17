@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    android:orientation="vertical"
+    tools:context=".caloriCal">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:textColor="#6c0303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Welcome to the Calorie Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="50sp" />
+    <Button
+            android:id="@+id/profileButton"
+            android:background="@drawable/btnnotes"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Edit Profile" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:src="@drawable/gym"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</android.widget.LinearLayout>

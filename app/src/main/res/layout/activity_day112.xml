@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="13"
+    android:background="@drawable/bccc"
+    tools:context=".day112Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lose 1200 Calorie Menu -Day1"
+
+            android:background="@drawable/btnback"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+
+        android:layout_height="0dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:alpha=".8"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="25dp"
+                        android:textColor="#074e58"
+                        android:fontFamily="@string/font_family_medium"
+                        android:typeface="sans"
+                        android:text=" BREAKFAST"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="15dp"
+                        android:textColor="#1a1c1c"
+                        android:fontFamily="@string/font_family_light"
+                        android:typeface="sans"
+                        android:text=" 1 Cup Skim Milk\n 1 Orange,Medium\n 1 1/4 Cups Cheerios Cereal"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="25dp"
+                        android:textColor="#074e58"
+                        android:fontFamily="@string/font_family_medium"
+                        android:typeface="sans"
+                        android:text=" MORNING SNACK"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="15dp"
+                        android:textColor="#1a1c1c"
+                        android:fontFamily="@string/font_family_light"
+                        android:typeface="sans"
+                        android:text=" 1Cup Cantaloupe Melon \n 1 1/2Cups Low Fat,Low Sodiun Cottage Cheese"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="25dp"
+                        android:textColor="#074e58"
+                        android:fontFamily="@string/font_family_medium"
+                        android:typeface="sans"
+                        android:text="LUNCH"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="15dp"
+                        android:textColor="#1a1c1c"
+                        android:fontFamily="@string/font_family_light"
+                        android:typeface="sans"
+                        android:text=" 1 1Whole Wheat pita Bread,small\n 1Cup Skim Milk\n 1Fudgsicle ,no Sugar added"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="25dp"
+                        android:textColor="#074e58"
+                        android:fontFamily="@string/font_family_medium"
+                        android:typeface="sans"
+                        android:text=" AFTERNOON SNACK"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="15dp"
+                        android:textColor="#1a1c1c"
+                        android:fontFamily="@string/font_family_light"
+                        android:typeface="sans"
+                        android:text=" 2 Table spoons prepared Hummus\n 4 Ounces Carrot"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="25dp"
+                        android:textColor="#074e58"
+                        android:fontFamily="@string/font_family_medium"
+                        android:typeface="sans"
+                        android:text=" DINNER"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:capitalize="characters"
+                        android:textSize="15dp"
+                        android:textColor="#1a1c1c"
+                        android:fontFamily="@string/font_family_light"
+                        android:typeface="sans"
+                        android:text="1 Cup Steamed  spinach\n2/3Cup Brown Rice"/>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/main"
+            android:background="@drawable/main"
+            android:text="main page"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="130dp"
+            android:elevation="30dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

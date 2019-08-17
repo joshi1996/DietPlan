@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btns"
+    android:layout_height="match_parent"
+    tools:context=".bmr">
+
+    <TextView
+        android:id="@+id/bmrLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#3e0404"
+        android:hint="@string/bmr"
+         />
+
+    <TextView
+        android:id="@+id/bmrTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:background="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="4dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/caloricLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#3e0404"
+        android:hint="To Maintain Weight"
+         />
+
+    <TextView
+        android:id="@+id/caloricTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="30dp"
+        android:background="#ffffff"
+        android:layout_marginRight="30dp"
+        android:elevation="4dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:id="@+id/loseWeightLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#3e0404"
+        android:hint="To Lose 1 lb per Week"
+        />
+
+    <TextView
+        android:id="@+id/loseWeightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:background="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:elevation="4dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/gainWeightLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColorHint="#3e0404"
+        android:hint="To Gain 1 lb per Week"
+         />
+
+    <TextView
+        android:id="@+id/gainWeightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:background="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="4dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:id="@+id/calculateBmrButton"
+        android:background="@drawable/submit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="CAlculate"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

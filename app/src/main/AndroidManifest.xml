@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajitsahu.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aaa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/aaa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".TipsActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".MealsActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".DietActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".SundayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".MondayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".TuesdayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".WednesdayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".ThursdayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".FridayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".SaturdayActivity"
+            android:parentActivityName=".DietActivity" />
+        <activity
+            android:name=".calActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".MealoneActivity"
+            android:parentActivityName=".MealsActivity" />
+        <activity
+            android:name=".MealtwoActivity"
+            android:parentActivityName=".MealsActivity" />
+        <activity
+            android:name=".MealthreeActivity"
+            android:parentActivityName=".MealsActivity" />
+        <activity
+            android:name=".MealfourActivity"
+            android:parentActivityName=".MealsActivity" />
+        <activity
+            android:name=".MealfiveActivity"
+            android:parentActivityName=".MealsActivity" />
+        <activity
+            android:name=".WeightFitActivity"
+            android:parentActivityName=".TipsActivity" />
+        <activity
+            android:name=".WeightLossActivity"
+            android:parentActivityName=".TipsActivity" />
+        <activity
+            android:name=".WeightGainActivity"
+            android:parentActivityName=".TipsActivity" />
+        <activity
+            android:name=".AvoidFoodTipsActivity"
+            android:parentActivityName=".TipsActivity" />
+        <activity
+            android:name=".NotesActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ShareActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".RateActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".DisplayLogActivity"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".CalorieSummary"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".DisplayLogAdapter"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".LogEntry"
+            android:parentActivityName=".NotesActivity" />
+        <activity android:name=".LogManager" />
+        <activity
+            android:name=".AddNewEntryActivity"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".PlanActivity"
+            android:label="@string/title_activity_plan"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TwelveActivity"
+            android:parentActivityName=".PlanActivity" />
+        <activity
+            android:name=".FourteenActivity"
+            android:parentActivityName=".PlanActivity" />
+        <activity
+            android:name=".SixteenActivity"
+            android:parentActivityName=".PlanActivity" />
+        <activity
+            android:name=".EighteenActivity"
+            android:parentActivityName=".PlanActivity" />
+        <activity
+            android:name=".day112Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day212Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day312Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day412Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day512Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day612Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day712Activity"
+            android:parentActivityName=".TwelveActivity" />
+        <activity
+            android:name=".day114Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day116Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day120Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day214Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day216Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day220Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day314Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day316Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day320Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day414Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day416Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day420Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day514Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day516Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day520Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day614Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day616Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day620Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity
+            android:name=".day714Activity"
+            android:parentActivityName=".FourteenActivity" />
+        <activity
+            android:name=".day716Activity"
+            android:parentActivityName=".SixteenActivity" />
+        <activity
+            android:name=".day720Activity"
+            android:parentActivityName=".EighteenActivity" />
+        <activity android:name=".caloriCal" />
+        <activity android:name=".profile" />
+        <activity android:name=".CaloriesGraph" />
+        <activity android:name=".DataBaseHelper" />
+        <activity android:name=".FourColumn_ListAdapter" />
+        <activity android:name=".User" />
+        <activity android:name=".ViewHealthyBmiContents" />
+        <activity android:name=".ViewListContents" />
+        <activity android:name=".bmi" />
+        <activity android:name=".bmr" />
+        <activity android:name=".caluclators" />
+        <activity android:name=".ImageAdapter"></activity>
+    </application>
+
+</manifest>

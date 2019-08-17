@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bcc"
+    android:layout_height="match_parent"
+    tools:context=".TwelveActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day112"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY1"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day212"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY2"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day312"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY3"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day412"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY4"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day512"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY5"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day612"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY6"/>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:alpha=".9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <Button
+                        android:id="@+id/day712"
+                        android:background="@drawable/btntwelve"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:text="LOSE 1200 CALORIE IN WEEK-DAY7"/>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="monospace"
+        android:text="A Healthy Entry is one whose BMI is between 18.5 and 24.9" />
+    <EditText
+        android:id="@+id/enterNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+    <Button
+        android:background="#d41706"
+        android:id="@+id/deleteEntryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Delete Entry" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold|italic"
+        android:textColor="#065e10"
+        android:text="Click an entry to view more info" />
+    <TextView
+        android:id="@+id/columnNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Col:Name, Weight, Daily Caloric Intake, BMI" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+</LinearLayout>

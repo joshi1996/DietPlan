@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/a"
+        tools:context=".NotesActivity" >
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/total_cals"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="107dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="#04087f"
+            android:textStyle="bold"
+android:gravity="center"
+            android:text="@string/total_cals"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/total_cals"
+            android:layout_centerHorizontal="true"
+android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="#0a1e6c"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:text="@string/total_time"
+             />
+
+        <TextView
+            android:id="@+id/average_cals"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/total_time"
+            android:layout_centerHorizontal="true"
+            android:textColor="#051658"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:text="@string/average_cals"
+             />
+
+        <Button
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/button2"
+            android:textColor="#e7d6d6"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_alignLeft="@+id/total_cals"
+            android:layout_alignRight="@+id/total_cals"
+            android:textStyle="bold"
+            android:layout_below="@+id/average_cals"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:minHeight="36dp"
+            android:background="@drawable/btnnotes"
+            android:onClick="openCalorieLog"
+            android:text="@string/log_button"
+
+            android:textSize="23sp" />
+
+
+        <Button
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/quit_button"
+            android:textColor="#dac6c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/button2"
+            android:background="@drawable/btnnotes"
+            android:layout_marginTop="10dp"
+
+            android:textStyle="bold"
+            android:onClick="quit"
+            android:text="@string/quit_button"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f3fa6</color>
+    <color name="colorPrimaryDark">#303d9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="age_background">#4e7dff</color>
+    <color name="bmr_background">#db5f5f</color>
+</resources>

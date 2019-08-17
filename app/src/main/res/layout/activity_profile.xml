@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bccc"
+    tools:context=".profile">
+
+    <EditText
+        android:id="@+id/enterNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter age"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            android:hint="@string/heights"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <SeekBar
+            android:id="@+id/heightSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill_horizontal"
+            android:max="96"
+            android:progress="48" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/weightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="monospace"
+            android:hint="@string/weight"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <SeekBar
+            android:id="@+id/weightSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill_horizontal"
+            android:max="400"
+            android:progress="200" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/workoutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:elevation="4dp"
+        android:textColorHint="#0d6d0d"
+        android:fontFamily="monospace"
+        android:hint="@string/workoutText"
+        android:padding="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/zeroButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="monospace"
+            android:text="0" />
+
+        <RadioButton
+            android:id="@+id/oneToTwoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-2"
+            android:fontFamily="monospace"/>
+
+        <RadioButton
+            android:id="@+id/threeToFiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3-5"
+            android:fontFamily="monospace"/>
+
+        <RadioButton
+            android:id="@+id/sixToSevenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6-7"
+            android:fontFamily="monospace"/>
+
+    </RadioGroup>
+
+
+
+
+
+    <Button
+        android:id="@+id/addEntryButton"
+        android:background="@drawable/btnback"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Add Entry" />
+
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:id="@+id/viewEntriesButton"
+        android:background="@drawable/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Entries" />
+
+    <Button
+        android:id="@+id/healthyEntriesButton"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Healthy Entries" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="#37930c"
+        android:text="If you do not want to save your data: " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bmrButton"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Find Daily Caloric Intake" />
+
+        <Button
+            android:id="@+id/bmiButton"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Find Body Mass Index" />
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>

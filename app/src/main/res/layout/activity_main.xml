@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet"
+    android:id="@+id/diet"
+    tools:context=".MainActivity">
+    <View
+        android:id="@+id/opacityFilter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e4e0"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.7">
+    </View>
+
+    <TextView
+    android:id="@+id/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="DietPlan"
+
+
+    android:gravity="center"
+    android:textSize="90dp"
+    android:textStyle="italic"
+    android:textColor="#0e8eb8"/>
+</RelativeLayout>

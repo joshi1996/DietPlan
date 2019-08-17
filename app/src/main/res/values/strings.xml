@@ -1,0 +1,343 @@
+<resources>
+    <string name="app_name">DietPlan</string>
+    <string name="text_one">
+        BREAKFAST:\n\n
+    3 Whole eggs,\n
+    3 egg whites(scrambled),\n
+    2 cup of cooked oats with\n
+    1 tbsp honey,\n
+    1 banana,\n
+    300ml milk.\n\n
+
+    SNACKS:\n\n
+    1 cup berries(strawberries,blueberries,raspberries),\n
+    2 cups low-fat cottage cheese.\n\n
+
+    LUNCH:\n\n
+    2 cups cooked brown rice,\n
+    300g cooked chicken breast,\n
+    1 cup green vegies.\n\n
+
+    DINNER:\n\n
+    200g salmon steak,\n
+    2 cups couscous,\n
+    2 cups spinach,\n
+    1 tbsp balsamic dressing.\n\n
+
+     SUPPER:\n\n
+     1 cup low-fat greek yoghurt,\n
+     1 tbsp flaxseeds.\n
+
+    </string>
+
+    <string name="text_two">
+        Eating quality high protein muscle meals throughout the day that are packed with muscle building nutrients is vital to
+        getting BIG mass gain.For best results from this mass gain diet plan make sure you drink at least 2 liters of water per
+        day.This muscle building food plan and can be adjust to fit in with your training program.
+    </string>
+
+    <string name="text_three">
+        BREAKFAST:\n\n
+    2 poached eggs,\n
+    2 slices multigrain toast,\n
+    1 tbsp natural peanut butter,\n
+    1/2 cup oasts,300ml milk.\n\n
+
+    SNACKS:\n\n
+    1 cup low-fat cottage cheese\n\n
+
+    LUNCH:\n\n
+    2 cups cooked brown rice,\n
+    300g cooked chicken breast,\n
+    1 cup green vegies.\n\n
+
+    DINNER:\n\n
+    200g salmon steak,\n
+    2 cups couscous,\n
+    2 cups spinach,\n
+    1 tbsp flaxseeds.\n\n
+
+    SUPPER:\n\n
+    1 cup low-fat greek yoghurt,\n
+    1 tbsp flaxseeds.\n\n
+    </string>
+
+
+    <string name="text_four">
+        BREAKFAST:\n\n
+        Muscle Mass Smoothie,\n
+        Blend 1 cup oats,\n
+        1 tbsp flaxseed oil,\n
+        1 cup of milk.\n
+        3 scoops(60g)of Vitalstrength Pro-Muscle,\n
+        1 cup berries,\n
+        1 banana,\n\n
+
+        SNACK:\n\n
+        Chicken/turkey sandwich with lettuce,\n
+        tomato,\n
+        1 slice cheese,\n
+        low-fat mayo.\n\n
+
+        LUNCH:\n\n
+        1-5 cups wholemeal pasta with tomato\n
+        based sauce,\n
+        1-5 cups mixed vegies,\n
+        1 slice low fat cheese.\n\n
+
+        DINNER:\n\n
+        200g trim pork,\n
+        1 cup stir fried vegies,\n
+        1 1/2 cup brown rice,\n
+        1 tbsp soy sauce,\n
+        2 tbsp cashew nuts.\n\n
+
+        SUPPER:\n\n
+        1 cup low-fat greek yoghurt,\n
+        1 tbsp peanut butter,\n
+        1 scoop whey protein.\n\n
+
+    </string>
+
+    <string name="text_five">
+       BREAKFAST:\n\n
+        3 whole eggs,\n
+        3 egg whites(scrambled),\n
+        2 slices multigrain toast,\n
+        4 slices extra lean turkey bacon,\n
+        1/4 avocado.\n\n
+
+        SNACKS:\n\n
+        2 large apples,\n
+        2 tbsp peanut butter.\n\n
+
+        LUNCH:\n\n
+        Baked Potato(Skin On),\n
+        1 tin tuna(185g),\n
+        1 cup sweet corn,\n
+        1 tbsp low-fat mayo,\n
+        1 slice low-fat cheese,\n
+        chilli to taste.\n\n
+
+        DINNER:\n\n
+        2 wholemeal burger buns,lean steak(200g),\n
+        1 fried egg,\n
+        2 slices beetroot,\n
+        1 slice cheese,\n
+        1 tbsp low fat mayo,\n
+        2 large sweet potatoes with olive oil.\n\n
+
+        SUPPER:\n\n
+        1 tin tuna(185g),\n
+        1 tsp olive oil.\n
+    </string>
+
+    <string name="text_six">
+        BREAKFAST:\n\n
+        8 Weetbix with 3 scoops(60g) of\n
+        Vitalstrength Pro-Muscle,\n
+        mixed with 300ml milk,\n
+        1 sliced banana and berries.\n\n
+
+        SNACKS:\n\n
+        Chicken/turkey sandwich with lettuce,\n
+        tomato,1 slice cheese,\n
+        loe-fat mayo.\n\n
+
+        LUNCH:\n\n
+        Fish or chicken(200g),\n
+        1 large cooked sweet potato,1 cup green\n
+        vegies.\n
+        1 piece of fruit.\n\n
+
+        DINNER:\n\n
+        2 cup wholemeal pasta,shredded\n
+        chicken breast(200g),\n
+        5 cherry tomatoes,\n
+        basil,mushroom,feta.\n\n
+
+        SUPPER:\n\n
+        1 cup full cream milk,\n
+        1 tbsp peanut butter.\n
+    </string>
+
+    <string name="text_seven">
+        BREAKFAST:\n\n
+        3 egg whites,\n
+        3 whole eggs(scrambled,or omelette),\n
+        4 slices turkey bacon,\n
+        1 cup spinach,\n
+        mushroom,\n
+        2 slices wholegrain bread.\n\n
+
+        SNACK:\n\n
+        1 cup low-fat greek yoghurt,\n
+        2 tbsp honey.\n\n
+
+        LUNCH:\n\n
+        1/2 roast chicken(no skin),\n
+        1 cup sweet potato,\n
+        1 cup beans,\n
+        mixed green vegies or salad,1 1/2 cup\n
+        cooked brown rice,1/2 tin (210g) 4 bean\n
+        mix.\n\n
+
+        DINNER:\n\n
+        250g Grilled white fish,\n
+        1 cup sweet potato,\n
+        1 cup beans,\n
+        mixed green vegies or salad,1 1/2 cup\n
+        cooked brown rice,1/2 tin(210g)4 bean\n
+        mix.\n\n
+
+        SUPPER:\n\n
+        Low fat cheese with raw veggies sticks.\n
+    </string>
+
+    <string name="text_eight">
+        BREAKFAST:\n\n
+
+        Muscle Mass Pancakes:1 cup Oats,\n
+        5 Egg Whites,\n
+        2 Whole Egg,\n
+        1 cup cottage cheese,\n
+        3 scoop(60g) of Vitalstrength Pro-\n
+        Muscle Dash Cinnamon,\n
+        2 tbsp Coconut Oil,\n
+        1 cup Berries.\n\n
+
+        SNACKS:\n\n
+
+        100g shredded chicken with wholemeal\n
+        tortilla.\n\n
+
+        LUNCH:\n\n
+
+        200g deli roast beef,\n
+        2 slices of wholemeal bread,\n
+        1 slice cheese,\n
+        mixed salad,\n
+        1 tbsp low-fat mayo,\n
+        1 piece fruit.\n\n
+
+        DINNER:\n\n
+
+        1/2 roast chicken,\n
+        5 baby potatoes,\n
+        1 large sweet potato,with mixed vegies or\n
+        salad.\n\n
+
+        SUPPER:\n\n
+
+        2 cups low-fat cottage cheese,\n
+        2 tbsp shredded coconut,\n
+        1 tbsp suger free syrup.\n\n
+
+    </string>
+    <string name="leafygreens">
+    LeafyGreens include Kale,spinach ,collards,swiss\n
+chards and a few others. They have several \n properties that make them perfect for a weight\n
+    loss diet. green leafy vegetables are\n also valuable for persons with type 2 diabetes.\n
+    An increase of 1 serving day of green leafy\n vegetables was associated with a 9 percent lower risk of diabetes.
+</string>
+    <string name="cottegecheese">
+        Cottage cheese is drained, but not pressed,\n so some whey remains and the individual curds remain loose.
+        The curd is usually washed to remove acidity, giving sweet-curd cheese
+        Different styles of cottage cheese are made from milk with different fat levels and in small-curd
+        or large-curd preparations.
+    </string>
+    <string name="FriedChicken">Made from conventional chicken laden with hormones and antibiotics, \n
+        covered with gluten-containing breading and chemicals like MSG and salt,\n
+        and fried in cheap, rancid oils, fried chicken is high in calories, fat,\n
+        and other chemicals that can make you sick. Skip it altogether. Please,\n please just never eat fried chicken.</string>
+    <string name="Cheeseburger">Where do I begin? Fat, calories, and cholesterol \n
+        are only part of the problem with bacon cheeseburgers, \n
+        which also contain HFCS (in the buns and condiments), dairy, salt, hormones,\n
+        and antibiotics. It’s just plain nasty. Instead, \n
+        opt for a veggie burger or an avocado sandwich.</string>
+    <string name="FrenchFries">Fries are simply salty unhealthy fat bombs fried in the worst possible rancid oil.\n
+        Many fast food places now offer alternatives\n to fries such as a side salad (no dressing!) </string>
+    <string name="Peanutbutter">Spread-soft, salty peanut butter on bread.It gives you approximately 192 calorie\n
+        plus it is extra high in protein.Peanut butter is served as a spread on bread, toast or crackers, and used to make sandwiches (notably the peanut butter and jelly sandwich).\n
+        It is also used in a number of confections, such as peanut-flavoured granola bars or croissants and other pastries\n.
+        A variety of other nut butters are also sold, such as cashew butter and almond butter,
+        produced in comparable ways.</string>
+    <string name="Butter">Butter is linked with long term weight gain.Intake of butter should be in moderation,\n
+        as regular consumption of butter is bad for your heart.Most frequently made from cows\' milk,\n
+        butter can also be manufactured from the milk of other mammals, including sheep, goats, buffalo, and yaks.\n
+        Salt such as dairy salt, flavorings and preservatives are sometimes added to butter.\n
+        Rendering butter produces clarified butter or ghee, which is almost entirely butterfat.</string>
+    <string name="Frozzenmeal">Freezer cooking is planning and preparing meals ahead of time that can be easily frozen for later use.\n
+        It can be as simple as doubling a recipe and then eating one that day and freezing the other for later.\n
+        Or, freezer meal cooking can take the form of swapping pre-prepared frozen meals with friends in a Freezer Club</string>
+    <string name="juice">Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice.\n
+        Juice is commonly consumed as a beverage or used as an ingredient or flavoring in foods or other beverages, as for smoothies. Juice emerged as a popular beverage choice after the development of pasteurization methods enabled its preservation without using fermentation (which is used in wine production).\n
+        The largest fruit juice consumers are New Zealand (nearly a cup, or 8 ounces, each day) and Colombia (more than three quarters of a cup each day).\n
+        Fruit juice consumption on average increases with country income level.</string>
+    <string name="aboutus">
+        Developed By:\n AMIT JOSHI\n
+                        AJIT SAHU\n
+        \nThis App very useful for health conseous persons,because they will not eat unhealthy food and do not know that
+        what kind of food is healthy and good for health.So if they follow our diet plan then they will notice the changes
+        in his health.In our app they will also note his/her daily diet and mantain diet plan in regular way.They also calculate
+        his Body Mass Index(BMI).\n
+        \nIf you like our app please rate us,share the app and send review to us for app.
+    </string>
+    <string name="currentWeight">Current weight: </string>
+    <string name="newUser">New User Account</string>
+    <string name="name">Name: </string>
+    <string name="age">Age: </string>
+    <string name="sex">Sex: </string>
+    <string name="height">Height: </string>
+    <string name="submit">Submit </string>
+    <string name="weightUnit">Unit of weight</string>
+    <string name="selectSex">Select your sex</string>
+    <string name="heightUnit">Unit of height</string>
+    <string name="menu_settings">Settings</string>
+    <string name="total_cals">Total calorie consumption:</string>
+    <string name="average_cals">Average calorie consumption per day:</string>
+    <string name="total_time">Total overall consumption time:</string>
+    <string name="log_button">View Calorie Log</string>
+    <string name="title_activity_display_log">Calorie Log</string>
+    <string name="add_new_log_entry">Add new entry</string>
+    <string name="title_activity_add_new_entry">New Calorie Log Entry</string>
+    <string name="date">Date:</string>
+    <string name="description">Description:</string>
+    <string name="total_calories">Total calories:</string>
+    <string name="calories_per_weight">Calories per weight/serving:</string>
+    <string name="per_weight">Per weight/volume/serving:</string>
+    <string name="total_weight_consumed">Total weight/volume/serving consumed:</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="hint_total_weight">i.e. 200g</string>
+    <string name="hint_per_weight">i.e. 65g</string>
+    <string name="hint_cal_per_weight">i.e. 220 Cal</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="back_button">Back</string>
+    <string name="quit_button">Quit</string>
+    <string name="remove_list_item">x</string>
+    <string-array name="unit_array">
+        <item>lbs</item>
+        <item>kg</item>
+    </string-array>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="height_unit_array">
+        <item>Inches</item>
+        <item>CM</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_plan">PlanActivity</string>
+    <string name="weight">200lbs</string>
+    <string name="heights">4\'0\"</string>
+    <string name="bmr">BMR</string>
+    <string name="bmi">BMI</string>
+    <string name="Calorie">Daily\nCaloric\nNeed</string>
+    <string name="workoutText">Enter Active Days Per Week:</string>
+    <string name="ageText">Enter Age:</string>
+</resources>

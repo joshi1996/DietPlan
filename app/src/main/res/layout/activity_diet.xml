@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="17"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".DietActivity">
+    <ImageView
+    android:id="@+id/dietplan"
+    android:layout_weight="10"
+    android:background="@drawable/amitdiet"
+    android:layout_width="match_parent"
+    android:layout_height="120dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7">
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:elevation="3dp"
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/txtsunday"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|normal"
+        android:drawableLeft="@drawable/ic_assignment_black_24dp"
+        android:text=" SUNDAY"
+        android:textSize="30dp"
+
+        />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:elevation="3dp"
+        android:layout_weight="1"
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtmonday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" MONDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:elevation="3dp"
+        android:layout_weight="1"
+
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txttuesday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" TUESDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:elevation="3dp"
+        android:layout_weight="1"
+
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtwednesday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" WEDNESDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:elevation="3dp"
+        android:layout_weight="1"
+
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtthursday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" THURSDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+
+        android:elevation="3dp"
+        app:cardMaxElevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtfriday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" FRIDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="2dp"
+        android:elevation="3dp"
+        app:cardMaxElevation="3dp"
+        android:layout_weight="1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtsaturday"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|normal"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:text=" SATURDAY"
+            android:textSize="30dp"
+            />
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="2dp"
+            android:elevation="3dp"
+            app:cardMaxElevation="3dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

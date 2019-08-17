@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:background="@drawable/color"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:paddingTop="2sp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvDate"
+            android:text="Date"
+            android:typeface="sans"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/btn"
+            android:text="delete"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Description:  "
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="filler"
+            android:id="@+id/tvDescription"
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Total Calories:  "
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="filler"
+            android:id="@+id/tvTotalCalories"
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Calories per weight/vol/serving:  "
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:id="@+id/tvCalPerWeight"
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout05"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Per weight/vol/serving:  "
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:id="@+id/tvPerWeight"
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout06"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Total weight/vol/serving consumed:  "
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:id="@+id/tvTotalWeightCon"
+            android:textSize="10dp"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MealsActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/meal3"
+        android:scaleType="fitXY"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Beginner Meal Plan"
+        android:textStyle="italic|bold"
+        android:background="@drawable/btn"
+        android:elevation="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#d59017"
+        />
+    <Button
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal 1 \n
+Breakfast:6:00AM to 7:00AM"
+        android:background="@drawable/btn"
+        android:id="@+id/btnmeal1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#d59017"
+        />
+    <Button
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal 2\n
+Snack:9:00AM to 10AM"
+        android:background="@drawable/btn"
+        android:id="@+id/btnmeal2"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#d59017"
+        />
+    <Button
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal 3\n
+Lunch:12:00PM to 1:00PM"
+        android:background="@drawable/btn"
+        android:id="@+id/btnmeal3"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#d59017"
+        />
+    <Button
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal 4\n
+PostWorkout:3:00PM to 4:00PM"
+        android:background="@drawable/btn"
+        android:id="@+id/btnmeal4"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#d59017"
+        />
+    <Button
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal 5\n
+Dinner:7:00PM to 8:00PM"
+        android:background="@drawable/btn"
+        android:id="@+id/btnmeal5"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#d59017"
+        />
+
+</LinearLayout>

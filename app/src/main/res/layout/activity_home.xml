@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bccc"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    tools:context=".HomeActivity">
+    <android.support.v4.view.ViewPager
+        android:layout_weight="2"
+        android:id="@+id/viewPage"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnshare"
+            style="@style/Base.Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:elevation="25dp"
+            custom:cardCornerRadius="20dp"
+            custom:cardElevation="25dp"
+            custom:cardMaxElevation="52dp">
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:drawableTop="@drawable/counter"
+                android:gravity="center|bottom"
+                android:text=" Counter "
+                android:textColor="#ff0000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnabout"
+            style="@style/Base.Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:elevation="25dp"
+            custom:cardCornerRadius="20dp"
+            custom:cardElevation="25dp"
+            custom:cardMaxElevation="52dp">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:drawableTop="@drawable/calori"
+                android:fontFamily="sans-serif"
+                android:gravity="center|bottom"
+                android:text="Plan"
+                android:textColor="#ff0000"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            style="@style/Base.Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/btntips"
+            android:layout_weight="1"
+            android:elevation="25dp"
+            custom:cardElevation="25dp"
+            custom:cardCornerRadius="25dp"
+            custom:cardMaxElevation="52dp">
+            <TextView
+                android:drawableTop="@drawable/tips"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tips"
+                android:gravity="bottom|center"
+                android:textColor="#ff0000"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            style="@style/Base.Widget.AppCompat.Button"
+            android:id="@+id/btnmeals"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:elevation="25dp"
+            custom:cardElevation="25dp"
+            custom:cardCornerRadius="20dp"
+            custom:cardMaxElevation="52dp">
+            <TextView
+                android:drawableTop="@drawable/apple"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Meals"
+                android:fontFamily="sans-serif"
+                android:gravity="center|bottom"
+                android:textSize="25dp"
+                android:textColor="#ff0000"
+                android:textStyle="bold|italic" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/btndiet"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            style="@style/Base.Widget.AppCompat.Button"
+            android:elevation="25dp"
+            custom:cardElevation="25dp"
+            custom:cardCornerRadius="20dp"
+            custom:cardMaxElevation="52dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/di"
+                android:text=" Diet"
+                android:gravity="center|bottom"
+                android:textColor="#ff0000"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/btncal"
+            style="@style/Base.Widget.AppCompat.Button"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+
+            android:elevation="25dp"
+            custom:cardElevation="25dp"
+            custom:cardCornerRadius="20dp"
+            custom:cardMaxElevation="52dp">
+
+            <TextView
+                android:layout_width="202dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="3dp"
+                android:drawableTop="@drawable/calc"
+                android:gravity="center|bottom"
+                android:text=" BMI calc"
+                android:textColor="#ff0000"
+                android:textSize="25sp"
+
+                android:textStyle="bold|italic" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
